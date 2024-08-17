@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { Context } from "../../contexts/Context"
 
-export default function Card({img, nome, preco}) {
+export default function Card({id, img, nome, preco}) {
   const { addQuantidadeCarrinho } = useContext(Context)
 
   return (
@@ -14,7 +14,7 @@ export default function Card({img, nome, preco}) {
           <p>{preco}</p>
         </div>
         <div>
-          <button onClick={addQuantidadeCarrinho}>Adicionar</button>
+          <button onClick={() => addQuantidadeCarrinho(id, img, nome, preco)}>Adicionar</button>
         </div>
       </div>
     </div>
