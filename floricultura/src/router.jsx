@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <Cart />
       },
       {
-        path: 'finalizado',
+        path: '/finalizado',
         element: <OrderFinish />
       }
     ]

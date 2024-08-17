@@ -20,6 +20,7 @@ export function ContextProvider({ children }) {
   function addCarrinho(id, img, nome, preco) {
     const aleatorio = Math.floor(Math.random() * 10000)
     setCarrinho(carrinho => [...carrinho, {id, img, nome, preco, aleatorio}])
+    console.log(carrinho.length)
   }
 
   function removeCarrinho(aleatorio) {
@@ -29,8 +30,14 @@ export function ContextProvider({ children }) {
 
   function calcularTotalItens() {
     let total = 0
-    carrinho.forEach(carrinho => console.log(total += carrinho.preco))
+    carrinho.forEach(carrinho => total += carrinho.preco)
     setTotalItem(total)
+  }
+
+  function zerarDados() {
+    setQuantidadeCarrinho(0)
+    setCarrinho([])
+    setTotalItem(0)
   }
 
   const dados = {
@@ -39,7 +46,8 @@ export function ContextProvider({ children }) {
     addQuantidadeCarrinho,
     carrinho,
     removeCarrinho,
-    totalItem
+    totalItem,
+    zerarDados
   }
 
   return (

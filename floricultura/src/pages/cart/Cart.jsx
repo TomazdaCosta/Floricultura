@@ -1,8 +1,9 @@
 import { useContext } from "react"
 import { Context } from "../../contexts/Context"
+import { Link } from "react-router-dom"
 
 export default function Cart() {
-  const { carrinho, removeCarrinho, totalItem, calcularTotalItens } = useContext(Context)
+  const { carrinho, removeCarrinho, totalItem, zerarDados } = useContext(Context)
 
   return (
     <div>
@@ -27,7 +28,9 @@ export default function Cart() {
       <div>
         <p>Total</p>
         <p>{totalItem}</p>
-        <button>Finalizar compra</button>
+        <Link to='/finalizado'>
+          <button onClick={() => zerarDados()}>Finalizar compra</button>
+        </Link>
       </div>
     </div>
   )
