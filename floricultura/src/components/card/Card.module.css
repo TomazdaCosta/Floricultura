@@ -1,0 +1,38 @@
+.card {
+  border: 1px solid #DEDEDE;
+  display: grid;
+  max-width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.imgTitulo {
+  justify-self: center;
+  text-align: center;
+}
+
+.imgTitulo h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.precoQuantidade {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.precoQuantidade .preco {
+  font-size: 1.75rem;
+}
+
+.botaoAdicionar {
+  border: none;
+  background-color: #2F992D;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 1.12rem;
+  cursor: pointer;
+}
