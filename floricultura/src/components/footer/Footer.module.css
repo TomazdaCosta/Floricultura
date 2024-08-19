@@ -1,0 +1,25 @@
+.container {
+  margin: o auto;
+  max-width: 1200px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.container img {
+  margin-bottom: 20px;
+}
+
+.container ul {
+  margin-bottom: 20px;
+}
+
+.container li {
+  margin-top: 10px;
+}
+
+.containerBg {
+  background-color: #F1F1F1;
+}
