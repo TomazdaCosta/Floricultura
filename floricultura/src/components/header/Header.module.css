@@ -10,3 +10,13 @@
 .headerBg {
   background-color: #F1F1F1;
 }
+
+.quantidadeCarrinho {
+  background-color: #c7ffa3;
+  color: #000;
+  border: 1px solid #666666;
+  padding: 3px 8px;
+  border-radius: 50%;
+  position: relative;
+  right: 12px;
+}

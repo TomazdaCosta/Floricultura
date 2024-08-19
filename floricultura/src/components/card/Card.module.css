@@ -1,9 +1,9 @@
 .card {
   border: 1px solid #DEDEDE;
   display: grid;
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .imgTitulo {
@@ -14,6 +14,7 @@
 .imgTitulo h3 {
   font-size: 1.5rem;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .precoQuantidade {

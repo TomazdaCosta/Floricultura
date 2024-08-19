@@ -19,7 +19,7 @@ export default function Header() {
         <div>
           <Link to='carrinho'>
             <img src={carrinho} />
-            <span>{quantidadeCarrinho}</span>
+            <span className={styles.quantidadeCarrinho}>{quantidadeCarrinho}</span>
           </Link>
         </div>
       </div>
