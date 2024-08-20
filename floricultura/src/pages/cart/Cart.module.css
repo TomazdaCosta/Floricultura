@@ -1,0 +1,84 @@
+.container {
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 10px;
+}
+
+.voltar {
+  font-weight: bold;
+  color: #000;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+.containerCard {
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.cardDiv {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.cardDiv img {
+  max-width: 150px;
+}
+
+.cardDiv h3 {
+  margin-bottom: 20px;
+}
+
+.cardDiv p {
+  margin-bottom: 20px;
+}
+
+.cardDiv button {
+  background-color: #D32A2A;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.preco p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.precoTotal {
+  display: grid;
+  justify-content: end;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.precoTotal span {
+  text-align: end;
+}
+
+.precoTotal p {
+  text-align: end;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.precoTotal button {
+  background-color: #2F992D;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
