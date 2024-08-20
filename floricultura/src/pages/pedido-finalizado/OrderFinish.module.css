@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  max-width: 1200px;
+  padding: 10px;
+  margin: 120px auto;
+  place-content: center;
+  justify-items: center;
+}
+
+.container p {
+  font-size: 1.25rem;
+}
+
+.container img {
+  margin-bottom: 20px;
+}
