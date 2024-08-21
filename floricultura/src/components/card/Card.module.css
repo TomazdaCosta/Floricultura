@@ -24,7 +24,7 @@
   justify-content: space-between;
 }
 
-.precoQuantidade .preco {
+.preco {
   font-size: 1.75rem;
 }
 
@@ -36,4 +36,32 @@
   border-radius: 5px;
   font-size: 1.12rem;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .card {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    padding: 10px;
+  }
+
+  .imgTitulo img {
+    max-width: 100px;
+  }
+
+  .preco {
+    font-size: 1.5rem;
+  }
+
+  .botaoAdicionar {
+    font-size: 1rem;
+  }
+
+  .card {
+    min-width: 250px;
+  }
 }
