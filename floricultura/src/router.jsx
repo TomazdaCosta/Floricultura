@@ -6,7 +6,7 @@ import OrderFinish from './pages/pedido-finalizado/OrderFinish'
 
 const router = createBrowserRouter([
   {
-    path: '/Floricultura',
+    path: '/',
     element: <Layout />,
     children: [
       {
