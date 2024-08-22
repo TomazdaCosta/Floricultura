@@ -19,7 +19,7 @@ export default function Cart() {
                   <img src={img} />
                   <div>
                     <h3>{nome}</h3>
-                    <p>10 undss</p>
+                    <p>10 unds</p>
                     <button onClick={() => removeCarrinho(aleatorio)}>Remover</button>
                   </div>
                 </div>
