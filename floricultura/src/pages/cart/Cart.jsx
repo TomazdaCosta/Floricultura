@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { Context } from "../../contexts/Context"
 import { Link } from "react-router-dom"
 import styles from './Cart.module.css'
-import logoVazio from '../../../public/imgs/emoji-carrinho-vazio.png'
+import logoVazio from '../../imgs/emoji-carrinho-vazio.png'
 
 export default function Cart() {
   const { carrinho, removeCarrinho, totalItem, zerarDados, quantidadeCarrinho } = useContext(Context)

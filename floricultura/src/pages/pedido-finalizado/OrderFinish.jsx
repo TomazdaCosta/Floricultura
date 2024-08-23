@@ -1,4 +1,4 @@
-import emoji from '../../../public/imgs/emoji-pedido-finalizado.png'
+import emoji from '../../imgs/emoji-pedido-finalizado.png'
 import styles from './OrderFinish.module.css'
 
 export default function OrderFinish() {
